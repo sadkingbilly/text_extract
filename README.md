@@ -9,6 +9,7 @@ A helper Makefile for extracting text from PDFs using different methods.
   ```
   sudo apt-get install poppler-utils  # For pdftotext and pdfimages.
   ```
+
 * For Tesseract:
 
   ```
@@ -18,7 +19,9 @@ A helper Makefile for extracting text from PDFs using different methods.
 
 * For [AWS Textract](https://aws.amazon.com/textract/):
 
-  Set up the AWS account and authorization for [AWS CLI](https://aws.amazon.com/cli/).
+  Set up the AWS account and authorization for [AWS CLI](https://aws.amazon.com/cli/),
+  then:
+
   ```
   sudo apt-get install pipx && pipx install amazon-textract-helper
   ```
