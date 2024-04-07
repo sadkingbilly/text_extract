@@ -32,5 +32,5 @@ A helper Makefile for extracting text from PDFs using different methods.
 git clone https://github.com/sadkingbilly/text_extract.git
 cd text_extract
 mkdir pdfs  # Place your input PDFs here.
-make all
+make all    # Output will be placed in txts subdirectory.
 ```
